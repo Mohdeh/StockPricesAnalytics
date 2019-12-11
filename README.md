@@ -1,0 +1,2 @@
+# StockPricesAnalytics
+There is a formatted file of price ticks for a set of bonds identified by their CUSIPs. Assume a CUSIP is just an 8-character alphanumeric string. Each CUSIP may have any number of prices (e.g., 92.457, 111.515) following it in sequence, one per line. The prices can be considered to be ordered by time in ascending order, earliest to latest.  This is a Java program that prints the closing (or latest) price for each CUSIP in the file. No assumption that the entire file can fit in memory!
