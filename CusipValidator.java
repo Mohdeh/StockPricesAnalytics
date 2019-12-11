@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
  
-public class Cusip {
+public class CusipValidator {
     private static Boolean isCusip(String str) {
         if (str.length() != 9) return false;
         int sum = 0;
